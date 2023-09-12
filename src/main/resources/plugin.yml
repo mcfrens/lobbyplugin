@@ -1,0 +1,4 @@
+name: lobbyplugin
+version: '${version}'
+main: com.brendanperry.lobbyplugin
+api-version: '1.20'
