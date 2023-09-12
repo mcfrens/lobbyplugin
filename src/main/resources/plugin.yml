@@ -1,4 +1,4 @@
 name: lobbyplugin
 version: '${version}'
-main: com.brendanperry.lobbyplugin
+main: com.mcfrens.lobbyplugin
 api-version: '1.20'

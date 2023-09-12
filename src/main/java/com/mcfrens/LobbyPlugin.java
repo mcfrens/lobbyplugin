@@ -1,6 +1,6 @@
-package com.brendanperry;
+package com.mcfrens;
 
-import com.brendanperry.commands.SendToServer;
+import com.mcfrens.commands.SendToServer;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.plugin.messaging.PluginMessageListener;
