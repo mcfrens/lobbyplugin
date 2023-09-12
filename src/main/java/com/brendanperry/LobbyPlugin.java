@@ -13,7 +13,7 @@ public final class LobbyPlugin extends JavaPlugin implements @NotNull PluginMess
         this.getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
         this.getServer().getMessenger().registerIncomingPluginChannel(this, "BungeeCord", this);
 
-        this.getCommand("teleporttoserver").setExecutor(new SendToServer(this));
+        this.getCommand("sendtoserver").setExecutor(new SendToServer(this));
     }
 
     @Override
