@@ -1,4 +1,10 @@
 name: lobbyplugin
 version: '${version}'
-main: com.mcfrens.lobbyplugin
+main: com.mcfrens.LobbyPlugin
 api-version: '1.20'
+
+commands:
+  sendtoserver:
+    description: Sends the closest player to the specified server
+    usage: /<command>
+    permission: op
