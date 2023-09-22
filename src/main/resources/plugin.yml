@@ -8,3 +8,7 @@ commands:
     description: Sends the closest player to the specified server
     usage: /<command>
     permission: op
+  setlobbyspawn:
+    description: Sets the location players will be sent to every time they join
+    usage: /<command>
+    permission: op
