@@ -1,5 +1,6 @@
 package com.mcfrens.listeners;
 
+import org.bukkit.GameMode;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -22,6 +23,8 @@ public class PlayerJoinListener implements Listener {
 
         if (spawn != null) {
             player.teleport(spawn);
+            player.setGameMode(GameMode.ADVENTURE);
+            player.setFlying(false);
         }
     }
 }
